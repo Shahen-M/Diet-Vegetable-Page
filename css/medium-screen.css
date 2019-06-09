@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .list_container {
+    margin: 0 auto;
+  }
+
+  .list_container p {
+    font-size: 18px;
+  }
+
+  .content ul li {
+    list-style: none;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+
+}

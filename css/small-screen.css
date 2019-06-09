@@ -1,0 +1,177 @@
+
+@media (min-width: 0px) {
+  header {
+    display: block;
+    padding: 5px 0 5px 0;
+  }
+
+  .header_scroll_animation {
+    position: fixed;
+    background-color: #fff;
+    animation: slideInDown 1s;
+    box-shadow: 0px 0px 10px 1px;
+  }
+
+  @keyframes slideInDown {
+    from {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu {
+    position: absolute;
+    z-index: 200;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  .menu p {
+    margin: 0;
+  }
+
+  .right_content {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  header img {
+    width: 75px;
+    height: 60px;
+  }
+
+  nav {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background: #009FB7;
+    top: 0;
+  }
+
+  .nav_container {
+    display: block;
+    float: none;
+    padding: 0;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .nav_slide_left_animation {
+    animation: slideInLeft 0.5s;
+    display: block;
+  }
+
+  @-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+  .title {
+    font-size: 23px;
+    margin: 30px 0 0 0;
+    color: #fff;
+  }
+
+  .drop_down_content {
+    display: block;
+    margin: 0;
+  }
+
+  .drop_down {
+    position: relative;
+    width: 100%;
+  }
+
+  .right_content img {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .aside_content {
+    height: auto;
+    position: absolute;
+    bottom: -260px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .aside_content ul li {
+    font-size: 20px;
+  }
+
+  .list_container {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .list_container p {
+    font-size: 20px;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content ul li {
+    font-size: 20px;
+  }
+
+  .content ul {
+    padding: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

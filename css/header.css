@@ -1,0 +1,99 @@
+header {
+  width: 100%;
+  display: inline-flex;
+  z-index: 100;
+}
+
+.right_content {
+  width: 50%;
+  display: flex;
+}
+
+header img {
+  width: 100px;
+  height: 80px;
+  margin: 5px 0 0 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+nav {
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.nav_container {
+  display: flex;
+  float: right;
+  padding-right: 25px;
+}
+
+nav li {
+  margin-right: 20px;
+  line-height: 50px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+ul a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+nav span {
+  background-image: url("../images/arrow.png");
+  width: 10px;
+  height: 10px;
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-left: 3px;
+}
+
+.drop_down {
+  width: 150px;
+  position: absolute;
+  display: none;
+  background: #fff;
+}
+
+.drop_down a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.drop_down li {
+  height: 50px;
+  cursor: pointer;
+  color: #000;
+  list-style: none;
+  margin: 0;
+}
+
+.drop_down li:hover {
+  background: #114B5F;
+  color: #fff;
+}
+
+.title {
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.drop_down_content {
+  display: table;
+  z-index: 10;
+  margin: 35px 0 0 35px;
+}
+
+.drop_down_content:hover
+.drop_down {
+  display: block;
+}
